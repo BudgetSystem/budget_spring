@@ -14,6 +14,11 @@ spring:
         show_sql: true
 
   datasource:
-    url:  jdbc:mysql://localhost:3306/test?serverTimezone=UTC&characterEncoding=UTF-8
-    username: root
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
     password: 1234
+
+#  datasource:
+#    url:  jdbc:mysql://localhost:3306/test?serverTimezone=UTC&characterEncoding=UTF-8
+#    username: root
+#    password: 1234
